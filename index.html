@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <script type="module" src="js/utils.js"></script>
+    </head>
+    <body>
+        <h1>Test JS Module</h1>
+        <button id="button">Test</button>
+        <script type="module">
+            saludar("JS Module is available");
+
+            document.querySelector("#button").addEventListener("click", () => {
+                alert("Click");
+            })
+        </script>
+    </body>
+</html>
